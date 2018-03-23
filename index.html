@@ -45,7 +45,7 @@
 	<main class="container">
 		<div class="row">
 			<!-- BARRA LATERAL IZQUIERDA-->
-			<div class="col-md-3 barra-lateral-izquierda">
+			<div class="col-md-3 barra-lateral-izquierda" id="barra-lateral-izquierda">
 			    <nav>
 			    	<a href=""><i class="icon-users"></i>Amigos</a>
 			    	<a href=""><i class="icon-mail"></i>Mensajes Privados</a>
@@ -57,9 +57,23 @@
 			    </nav>
 
 			</div>
+
+			<a href="#" class="fondo-enlace d-md-none" id="fondo-enlace"></a>
 			<!-- cONTWNIDO PRINCIPAL-->
 			<div class="col contenido-principal">
 				<div class="publicar">
+					<div class="publicar">
+						<div class="row">
+							
+							<div class="col">
+								<a href="#" class="btn-menu d-md-none d-flex justify-content-between" id="btn-menu">
+									<span>Menu</span>
+									<i class="icon-menu"></i>
+								</a>
+							</div>
+						</div>
+
+					</div>
 					 <div class="row">
 					 	<div class="col-auto foto">
 					 		<a href="#" title="">
@@ -295,7 +309,7 @@
 		
 	</main>
 
-	<script type="text/javascript" src="js/jquery-3.3.1.min"></script>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
